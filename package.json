@@ -1,0 +1,15 @@
+{
+  "name": "saucetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":  "testcafe \"saucelabs:Chrome@beta:Windows 10\" tests/index-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe-browser-provider-saucelabs": "^1.3.0"
+  }
+}
