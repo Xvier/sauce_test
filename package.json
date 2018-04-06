@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":  "testcafe \"saucelabs:Chrome@beta:Windows 10\" tests/index-test.js"
+    "test":  "testcafe \"saucelabs:Chrome@beta:Windows 10\" test.js"
   },
   "keywords": [],
   "author": "",
